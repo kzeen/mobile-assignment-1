@@ -1,3 +1,9 @@
-<resources>
-    <string name="app_name">Assignment1</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="Typos">Assignment1</string>
+    <string name="kz_operand_1">Operand 1</string>
+    <string name="kz_operand_2">Operand 2</string>
+    <string name="kz_addition">Add (+)</string>
+    <string name="kz_subtraction">Sub (-)</string>
+    <string name="kz_multiplication">Mul (*)</string>
+
 </resources>
