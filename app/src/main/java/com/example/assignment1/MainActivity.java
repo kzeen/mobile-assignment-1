@@ -79,5 +79,8 @@ public class MainActivity extends AppCompatActivity {
     }
     private void setResult(float res) {
         kz_result.setText(String.valueOf(res));
+        kz_op_1_value.setText("");
+        kz_op_2_value.setText("");
+        kz_op_1_value.requestFocus();
     }
 }
